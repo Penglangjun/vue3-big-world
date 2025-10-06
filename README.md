@@ -5,13 +5,21 @@
 代码
 VUE3-BIG-E/
 ├── .vscode/           # VSCode 编辑器配置
+
 ├── json-server/       # Mock 数据服务器
+
 ├── node_modules/      # 项目依赖（自动生成）
+
 ├── public/            # 静态资源目录
+
 ├── src/               # 核心源代码
+
 ├── uploads/           # 上传文件存储目录
+
 ├── README.md          # 项目说明文档
+
 └── 其他配置文件        # 包括 vite.config.js、.eslintrc 等
+
 ⚙️ 环境要求
 ✅ Node.js ≥ 16（下载 Node.js）
 
@@ -37,22 +45,39 @@ node server
 
 代码
 Mock Server is running on http://localhost:3007
+
 可用接口一览（需携带 token）：
+
 接口路径	功能说明
+
 POST /api/reg	用户注册
+
 POST /api/login	用户登录
+
 GET /my/userinfo	获取用户信息
+
 PATCH /my/updatepwd	更新用户密码
+
 PUT /my/userinfo	更新用户资料
+
 GET /my/cate/list	获取文章分类
+
 POST /my/cate/add	新增分类
+
 PUT /my/cate/info	更新分类
+
 DELETE /my/cate/del	删除分类
+
 GET /my/article/list	获取文章列表
+
 POST /my/article/add	发布文章
+
 PUT /my/article/info	更新文章
+
 GET /my/article/info	获取文章详情
+
 DELETE /my/article/info	删除文章
+
 2️⃣ 启动前端项目
 在项目根目录下运行：
 
@@ -60,7 +85,7 @@ bash
 # 使用 pnpm（推荐）
 pnpm dev
 
-# 或使用 npm
+# 或 npm
 npm run dev
 默认访问地址：
 
