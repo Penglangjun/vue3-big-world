@@ -1,0 +1,12 @@
+{
+  "name": "bigevent-mock-server",
+  "version": "1.0.0",
+  "scripts": {
+    "mock": "node server.js",
+    "mock:dev": "json-server --watch db.json --port 3007 --host localhost"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "multer": "^2.0.2"
+  }
+}
