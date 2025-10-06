@@ -50,8 +50,11 @@ npm 或 pnpm（推荐）
 终端中进入 json-server 目录
 
 **cd json-server**
+## 2.安装json-server的相关依赖
 
-## 2.启动 Mock 服务器
+**在json-server终端中运行：Pnpm install**
+
+## 3.启动 Mock 服务器
 
 **在json-server终端中运行：node server**
 
