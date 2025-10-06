@@ -1,46 +1,65 @@
-环境要求
+# 📌 VUE3-BIG-WORLD
+
+# 🧰 技术栈
+Vue 3 + Vite
+
+Element Plus
+
+Axios
+
+JSON Server
+
+ESLint + Prettier
+
+# 环境要求
 Node.js (版本建议 16+)
 
 npm 或 pnpm（推荐）
 
+如果你还没有安装 Node.js，请先到 Node.js 官网 下载并安装。
+
+下载地址：https://nodejs.org/zh-cn/download
+
+# 🚀 快速开始
+
 # 步骤一： 安装依赖 
-# 在项目根目录中打开终端
+在项目根目录中打开终端
 
 ## 方式一：使用 pnpm（推荐）
 
 安装 pnpm（如果尚未安装）
 
-**npm install -g pnpm**
+**运行：npm install -g pnpm**
 
 安装项目依赖
 
-**pnpm install**
+**运行：pnpm install**
 
 ## 方式二：使用 npm
 
-**npm install**
+**运行：npm install**
+
+
 
 # 步骤二 启动mock服务器
 
-## 1. 在在终端中打开json-server文件夹
+## 1. 在终端中打开json-server文件夹
 
 在启动前端项目前，需要先启动 JSON Server 来提供模拟数据：
 
-进入 json-server 目录
+终端中进入 json-server 目录
 
 **cd json-server**
 
 ## 2.启动 Mock 服务器
 
-**node server**
+**在json-server终端中运行：node server**
 
 服务器启动后，你将看到一系列接口
 
-**注意：要先启动服务器，不要中途关闭，关闭服务器无法完成数据请求，重新启动服务器后请在项目中退出账号重新登录以获得新的token**
+**⚠️ 注意：要先启动服务器，不要中途关闭，关闭服务器无法完成数据请求，重新启动服务器后请在项目中退出账号重新登录以获得新的token**
 
-如果你还没有安装 Node.js，请先到 Node.js 官网 下载并安装。
 
-下载地址：https://nodejs.org/zh-cn/download
 
 # 步骤三 启动前端项目
 
@@ -49,11 +68,11 @@ npm 或 pnpm（推荐）
 bash
 ## 使用 pnpm（推荐）
 
-**pnpm run dev**
+**运行：pnpm dev**
 
 ## 或使用 npm
 
-**npm run dev**
+**运行：npm run dev**
 
 项目启动后，终端会显示访问地址，通常是：
 
@@ -61,19 +80,6 @@ http://localhost:5173
 
 在浏览器中打开该地址即可访问应用。
 
-主要功能特性
-
-✅ Vue 3 + Vite 构建
-
-✅ Element Plus UI 组件库
-
-✅ Axios HTTP 请求库
-
-✅ 富文本编辑器集成
-
-✅ JSON Server Mock 数据
-
-✅ ESLint + Prettier 代码规范
 
 注意事项
 确保在启动前端项目前，Mock 服务器已经正常运行
